@@ -76,8 +76,22 @@ shinyUI(dashboardPage(
                                                     "Chinese" = 2,
                                                     "Italian" = 3,
                                                     "Thai" = 4,
-                                                    "Mexican" = 5  ),
+                                                    "Mexican" = 5 ,
+                                                    "Greek" =6,
+                                                    "Japanese" =7, 
+                                                    "Cafes" = 8, 
+                                                    "Asian - Fusion" = 9,
+                                                    "Barbeque"= 10, 
+                                                    "BreakFast and Brunch"=11,
+                                                    "Buffet" = 12, 
+                                                    "Chicken Wings" = 13,
+                                                    "Delis" = 14,
+                                                    "Fast Food" = 15,
+                                                    "Pizza" = 16,
+                                                    "Sandwiches" = 17
+                                                    ),
                                         selected = 1,selectize=FALSE),
+              
               
               fluidRow(box(visOutput('myChartLDASelect'),width = 12))),
       
@@ -89,7 +103,17 @@ shinyUI(dashboardPage(
                                       "Chinese" = 2,
                                       "Italian" = 3,
                                       "Thai" = 4,
-                                      "Mexican" = 5  ),
+                                      "Mexican" = 5 ,
+                                      "Greek" =6,
+                                      "Japanese" =7, 
+                                      "Cafes" = 8, 
+                                      "Asian - Fusion" = 9,
+                                      "Barbeque"= 10, 
+                                      "BreakFast and Brunch"=11,
+                                      "Buffet" = 12, 
+                                      "Fast Food" = 13,
+                                      "Pizza" = 14
+                          ),
                           selected = 1,selectize=FALSE),
               
               fluidRow(box(uiOutput('ImageSelect'),width = 12))),

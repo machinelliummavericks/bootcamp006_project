@@ -9,6 +9,7 @@ library(ggvis)
 library(LDAvis)
 library(DT)
 library(shinydashboard)
+library(ggplot2)
 
 
 
@@ -88,6 +89,21 @@ load('./www/Thai_LDA.Rdata')
 load('./www/Mexican_LDA.Rdata')
 load('./www/Italian_LDA.Rdata')
 load('./www/Chinese_LDA.Rdata')
+load('./www/Sandwiches_topic_model_Positive_123.Rdata')
+load('./www/Positive_review_categories_As_a_whole.Rdata')
+
+json_Greek_Positive
+json_Japanese_Positive
+json_Cafes_Positive
+json_Asian_Fusion_Positive
+json_Barbeque_Positive
+json_Breakfast_Brunch_Positive
+json_Buffets_Positive
+json_Chicken_Wings_Positive
+json_Delis_Positive
+json_Fast_Food_Positive
+json_Pizza_Positive
+json_Sandwiches_Positive
 
 
 
