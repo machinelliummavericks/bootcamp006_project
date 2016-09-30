@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 # Yelper: A Matrix Factorization Based Recommendation System
 
 Chuan Sun 
 chuansun76 at gmail dot com
 twitter.com/sundeepblue
+=======
+# Yelper: A Collaborative Filtering Based Recommendation System
+
+Chuan Sun 
+
+[chuansun76 at gmail dot com]
+
+[twitter.com/sundeepblue]
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e
 
 
 This README file describes several major component of the "Yelper", a business recommendation system built mainly in Python using Spark framework.
@@ -160,6 +170,7 @@ The javascript file "./webserver/static/data/generated_nodes_and_edges_from_json
 
 
 
+<<<<<<< HEAD
 # 7. TODOs
 
 - Redirect spark execution log to txt file
@@ -168,5 +179,23 @@ The javascript file "./webserver/static/data/generated_nodes_and_edges_from_json
 - Fine tune the webpage to support more features
 - etc
 
+=======
+# 7. Future works
+
+- More graph analysis
+    - Graph pagerank analysis using GraphX
+    - Community discovery (similar to Facebook social network)
+- Improve recommendation
+    - Content-based recommendation
+    - Clustering all businesses
+    - Extract object from business photos using Convolutional Neural Network
+- Code
+    - Redirect spark execution log to txt file
+    - Add try/except to handle potential exceptions in codes
+    - Add more comments
+    - Add test cases for critical logics
+- Google Map based web page
+    - Fine tune the webpage to support more features
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e
 
 

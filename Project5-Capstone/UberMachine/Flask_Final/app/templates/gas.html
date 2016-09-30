@@ -2,6 +2,7 @@
 
 {% block content %}
 	<h3>You're currently near {{ user.current }}</h3>
+<<<<<<< HEAD
     <h3>The nearest gas stations is located at {{ user.station}}</h3>
     <h3>The gas there costs ${{ user.cost}}</h3>
     <br></br>
@@ -43,6 +44,24 @@
         form.elements['openid'].value = openid;
     }
     </script>
+=======
+    <h3>The nearest gas station is located at {{ user.station}}</h3>
+    <h3>The gas there costs ${{ user.cost}}.</h3>
+    <br></br>
+    <!-- Put directions in here -->
+<table>
+  <tr>
+    <th>Directions</th>
+  </tr>
+  {% for each in user.gas %}
+  <tr> 
+    <td> {{ each | safe}}
+    </td>
+  </tr>
+</tr>
+    {% endfor %}
+</table>
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e
 
     <h2>All Gassed Up? Let's Get Driving!</h2>
     <form action="/index" method="get" name="uber">
@@ -52,4 +71,8 @@
     
 
 
+<<<<<<< HEAD
 {% endblock %}
+=======
+{% endblock %}
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e

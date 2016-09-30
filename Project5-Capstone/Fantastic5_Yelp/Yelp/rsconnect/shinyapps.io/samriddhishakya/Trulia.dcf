@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Trulia
 account: samriddhishakya
 server: shinyapps.io
@@ -8,3 +9,15 @@ when: 1471779214.76812
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: www/images/apt2.png
+=======
+name: Trulia
+account: samriddhishakya
+server: shinyapps.io
+appId: 121250
+bundleId: 537107
+url: https://samriddhishakya.shinyapps.io/Trulia/
+when: 1471779214.76812
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/images/apt2.png
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e

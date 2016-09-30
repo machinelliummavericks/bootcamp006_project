@@ -2,6 +2,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+<<<<<<< HEAD
 
     <script type="text/javascript">
     function set_openid(openid, pr)
@@ -18,6 +19,13 @@
     </script>
     <div style=padding-left: 50px> 
     <h1>Uber Driver Recomendation System!</h1>
+=======
+    </script>
+    <div class=splash> 
+    <h2>Uber Driver Recommendation System!</h2>
+    <div id="overlay"><img src="https://giant.gfycat.com/OffbeatDefensiveGermanwirehairedpointer.gif" alt="Be patient..." /></div>
+    
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e
     <form action="" method="post" name="uber">
         {{ form.hidden_tag() }}
         <p>
@@ -32,9 +40,24 @@
             {% endfor %}
             -->
         </p>
+<<<<<<< HEAD
         <p>{{ form.gas }} Do You Need Gas?</p>
         <p>{{ form.restaurants }} Do You Need Food?</p>
         <p><input type="submit" value="Get Directions!"></p>
     </form>
     </div>
 {% endblock %}
+=======
+
+        <p>{{ form.gas }} Do You Need Gas?</p>
+        <!--
+        <p>{{ form.restaurants }} Do You Need Food?</p>
+        -->
+        <p><input type="submit" class="pure-button pure-button-primary" value="Get Directions!"></p>
+
+    </form>
+    </div>
+{% endblock %}
+
+
+>>>>>>> 845333d19caa6fa6670a5f92d63f51aec9a49d0e
